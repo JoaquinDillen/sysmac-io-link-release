@@ -1,5 +1,9 @@
 # Sysmac I/O Link (Release)
 
+<p align="center">
+  <img src="assets/Sysmac-IO-Link_256.png" alt="Sysmac I/O Link Logo" width="180">
+</p>
+
 This repository hosts **public Windows releases** of **Sysmac I/O Link**.
 
 Sysmac I/O Link bridges **Factory I/O** with the **Omron Sysmac Studio Simulator** so students can practice PLC workflows **without physical hardware**.
