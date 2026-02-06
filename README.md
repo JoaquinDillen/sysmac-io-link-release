@@ -20,7 +20,11 @@ Go to **Releases** and download the latest `Sysmac-IO-Link.exe` (or `.zip`).
 
 ## License
 
-PolyForm Noncommercial 1.0.0 (see the source repository for details).
+PolyForm Noncommercial 1.0.0 (see `LICENSE`).
+
+## Third-party licenses
+
+- Factory I/O SDK: Microsoft Public License (Ms-PL). See `LICENSES/FactoryIO-SDK-LICENSE.txt`.
 
 ## Notes
 
