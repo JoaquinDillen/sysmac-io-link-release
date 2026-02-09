@@ -18,6 +18,26 @@ Go to **Releases** and download the latest `Sysmac-IO-Link.exe` (or `.zip`).
 - Factory I/O Ultimate Edition (SDK access)
 - Omron Sysmac Studio with Simulator
 
+## Quick Guide
+
+1. Open Sysmac Studio and export globals: `Tools -> Export Global Variables -> CX-Designer`.
+
+![Sysmac export menu](assets/guide/sysmac-export-menu.png)
+![Sysmac export dialog](assets/guide/sysmac-export-dialog.png)
+
+2. Copy the exported content.
+
+![Exported globals example](assets/guide/sysmac-export-output.png)
+
+3. Open `Sysmac-IO-Link.exe`.
+4. On first run, choose a data folder.
+5. In `Sysmac Globals Setup`, paste the exported globals and save.
+6. Build mappings in the app and press `Save`.
+7. Use `Test Connections`, then `Start Bridge`.
+
+![Main app view](assets/guide/app-main.png)
+![Mappings view](assets/guide/app-mapping.png)
+
 ## License
 
 PolyForm Noncommercial 1.0.0 (see `LICENSE`).
