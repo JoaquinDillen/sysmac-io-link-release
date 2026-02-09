@@ -38,6 +38,20 @@ Go to **Releases** and download the latest `Sysmac-IO-Link.exe` (or `.zip`).
 ![Main app view](assets/guide/app-main.png)
 ![Mappings view](assets/guide/app-mapping.png)
 
+## Workflow GIFs
+
+### First-time setup
+
+![First-time setup](assets/Gifts/first-run-setup.gif)
+
+### Create and save mappings
+
+![Create and save mappings](assets/Gifts/mapping-save.gif)
+
+### Test connections and start bridge
+
+![Test connections and start bridge](assets/Gifts/test-and-start-bridge.gif)
+
 ## License
 
 PolyForm Noncommercial 1.0.0 (see `LICENSE`).
