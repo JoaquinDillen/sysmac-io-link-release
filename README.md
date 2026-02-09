@@ -10,7 +10,7 @@ Sysmac I/O Link bridges **Factory I/O** with the **Omron Sysmac Studio Simulator
 
 ## Download
 
-Go to **Releases** and download the latest `Sysmac-IO-Link.exe` (or `.zip`).
+Go to **Releases** and download the latest `Sysmac-IO-Link.exe`.
 
 ## Requirements
 
