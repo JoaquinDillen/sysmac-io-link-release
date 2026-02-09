@@ -24,6 +24,10 @@ Go to **Releases** and download the latest `Sysmac-IO-Link.exe`.
 
 ![First-time setup](assets/Gifts/first-run-setup.gif)
 
+Alternative (without CX-Designer export):
+
+![First-time setup without CX-Designer](assets/Gifts/first-run-setup(noCX-Designer).gif)
+
 ### Create and save mappings
 
 ![Create and save mappings](assets/Gifts/mapping-save.gif)
