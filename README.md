@@ -40,7 +40,9 @@ PolyForm Noncommercial 1.0.0 (see `LICENSE`).
 
 - Factory I/O SDK: Microsoft Public License (Ms-PL). See `LICENSES/FactoryIO-SDK-LICENSE.txt`.
 
-## Notes
+  
+[//]: # (## Notes)
+[//]: # (This is a **binary-only** distribution.)
+[//]: # (For source code, issues, and documentation, see:)
+[//]: # (https://github.com/JoaquinDillen/sysmack-io-link)
 
-This is a **binary-only** distribution. For source code, issues, and documentation, see:
-https://github.com/JoaquinDillen/sysmack-io-link
