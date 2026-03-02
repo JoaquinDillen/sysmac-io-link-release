@@ -15,7 +15,7 @@ Go to **Releases** and download the latest `Sysmac-IO-Link.exe`.
 ## Requirements
 
 - Windows 10/11
-- Factory I/O Ultimate Edition (SDK access)
+- Factory I/O (SDK backend for Ultimate, or Modbus TCP backend)
 - Omron Sysmac Studio with Simulator
 
 ## Quick Guide (GIFs)
@@ -44,9 +44,6 @@ PolyForm Noncommercial 1.0.0 (see `LICENSE`).
 
 - Factory I/O SDK: Microsoft Public License (Ms-PL). See `LICENSES/FactoryIO-SDK-LICENSE.txt`.
 
-  
-[//]: # (## Notes)
-[//]: # (This is a **binary-only** distribution.)
+[//]: # (This is a binary-only distribution.)
 [//]: # (For source code, issues, and documentation, see:)
 [//]: # (https://github.com/JoaquinDillen/sysmack-io-link)
-
