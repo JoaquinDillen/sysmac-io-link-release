@@ -1,17 +1,22 @@
-## Sysmac I/O Link v1.1.0
+## Sysmac I/O Link v1.2.0
 
 ### Highlights
-- Added explicit Factory backend selection: `SDK` or `Modbus TCP`
-- Removed automatic backend fallback mode
-- Added backend-aware connection tests and bridge start checks
-- Added Modbus type validation in mappings (prevents unsupported types)
-- Added Modbus TCP PoC server script for communication testing
-- Updated manuals and GIF guide with backend/addressing behavior
+- Added friendly app-level error handling so common student mistakes show clear messages instead of Python traceback pop-ups.
+- Added stronger validation before bridge start for mappings, globals, backend settings, addresses, duplicate mappings, and Sysmac datatypes.
+- Added clearer bridge runtime messages that identify the failing mapping, such as `input:bit:5 -> S1`.
+- Added safer handling for invalid or damaged configuration JSON files.
+- Added validation that mapped Sysmac variables must come from a full globals export with datatype information.
+- Packaged builds now suppress PyInstaller's windowed traceback dialog by default.
+
+### Important globals change
+- Use `Tools -> Export Global Variables -> CX-Designer` in Sysmac Studio.
+- Paste the full exported table into the app's Globals setup.
+- Plain variable-name lists are no longer enough for mapped variables because the bridge needs datatypes to pack values correctly.
 
 ### Factory backend behavior
-- `SDK`: uses Factory I/O SDK memory map (Ultimate workflow)
-- `Modbus TCP`: uses Factory I/O Modbus TCP addresses from driver mapping
-- Mapping `address` is interpreted by the selected backend
+- `SDK`: uses Factory I/O SDK memory map (Ultimate workflow).
+- `Modbus TCP`: uses Factory I/O Modbus TCP addresses from the Factory I/O driver mapping.
+- Mapping `address` is interpreted by the selected backend.
 
 ### Requirements
 - Windows 10/11
@@ -19,12 +24,12 @@
 - Omron Sysmac Studio with Simulator
 
 ### Installation
-- Download `Sysmac-IO-Link.exe` from Releases
-- Run the application (no installer required)
+- Download `Sysmac-IO-Link.exe` from Releases.
+- Run the application; no installer is required.
 
 ### SHA256
-- Sysmac-IO-Link.exe: `A6192113BFA6088407AF7EAC01AE76352CDFFD00E602577F0FC4B5269E36B7E6`
+- Publish the SHA256 after the final `Sysmac-IO-Link.exe` is built and uploaded.
 
 ### Notes
-- Binary-only release
-- Commercial use is not permitted (PolyForm Noncommercial)
+- Binary-only public release repository.
+- Commercial use is not permitted (PolyForm Noncommercial).
